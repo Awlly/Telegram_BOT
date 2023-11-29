@@ -6,7 +6,8 @@ from config import TOKEN
 from transcriptor import transcript
 import asyncio
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(filename='logs.txt', level=logging.DEBUG,
+                    format=' %(asctime)s - %(levelname)s - %(message)s')
 # TOKEN = os.getenv('TOKEN')
 bot = Bot(token = TOKEN)
 dp = Dispatcher()

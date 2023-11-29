@@ -1,0 +1,3 @@
+ 2023-11-29 15:50:33,274 - DEBUG - Using selector: EpollSelector
+ 2023-11-29 15:50:33,285 - INFO - Start polling
+ 2023-11-29 15:50:33,500 - INFO - Run polling for bot @Awllys_test_bot id=6723682618 - 'AwllysTestBot'
